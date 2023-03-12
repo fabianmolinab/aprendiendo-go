@@ -6,6 +6,7 @@ import "fmt"
 func main() {
 
   /*Sintaxis: for inicializacion; condicion; post {codigo a ejecutar}
+
     inicializacion: es un sentencia opcional que se ejecuta al comienzo del bucle
     condicion: es la expresion booleana que se evalua en cada iteración del bucle
     post: es una sentencia opcional que se ejecuta al final de cada iteración.
@@ -25,7 +26,7 @@ func main() {
     fmt.Println(i)
   }
 
-  //Continue: Permite saltar a la siguiente iteración del bucle sin ejecutar las instrucciones restantes. 
+  //Continue: Permite saltar a la siguiente iteración del bucle sin ejecutar las instrucciones restantes.
 
   for i := 0; i < 10; i++ {
     if i%2 == 0 {

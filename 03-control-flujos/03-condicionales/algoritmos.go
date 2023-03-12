@@ -6,7 +6,6 @@ import "fmt"
 
 func main() {
 
-
   var numero int
 
   fmt.Println("Este es un programa para cualcular si el numero es par o impar")
